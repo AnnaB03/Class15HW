@@ -10,7 +10,7 @@ Print out  total number of students
 	
 	String studentName;
 	String studentId;
-	static int numberOfStudent = 100;
+	static int numberOfStudent;
 	
 	public static void main(String[] args) {
 		
@@ -18,19 +18,20 @@ Print out  total number of students
 		S1.studentName = "Mary";
 		S1.studentId = "12345";
 		S1.numberOfStudent++;
-		System.out.println("Student's name is "+ S1.studentName + ", student's ID is "+ S1.studentId+ " and student's number is "+ S1.numberOfStudent);
+		
 		
 		Students S2 = new Students();		
 		S2.studentName = "Kate";
 		S2.studentId = "14789";
 		S2.numberOfStudent++;
-		System.out.println("Student's name is "+ S2.studentName + ", student's ID is "+ S2.studentId+ " and student's number is "+ S2.numberOfStudent);
+		
 		
 		Students S3 = new Students();		
 		S3.studentName = "Jacob";
 		S3.studentId = "96325";
 		S3.numberOfStudent++;
-		System.out.println("Student's name is "+ S3.studentName + ", student's ID is "+ S3.studentId+ " and student's number is "+ S3.numberOfStudent);
+		
+		System.out.println(Students.numberOfStudent);
 	
 	
 	

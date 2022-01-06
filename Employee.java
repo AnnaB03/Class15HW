@@ -9,7 +9,7 @@ Print out the eID , salary and  CEO for each of the objects*/
 	
 	static String CEO = "Sumair";
 	String empID;
-	int salary;
+	double salary;
 	String name;
 	
 

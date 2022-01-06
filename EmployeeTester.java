@@ -13,10 +13,10 @@ public class EmployeeTester {
 		Employee E2 = new Employee();
 		E2.name = "Asel";
 		E2.empID = "56789";
-		E2.salary = 5000;
+		E2.salary = 6000;
 		
-		System.out.println("Employee's name is "+ E1.name + ", his empID is "+ E1.empID + ", his salary is "+ E1.salary+ " and the CEO of the company is "+ E1.CEO);
-		System.out.println("Employee's name is "+ E2.name + ", his empID is "+ E2.empID + ", his salary is "+ E2.salary+ " and the CEO of the company is "+ E2.CEO);
+		System.out.println("Employee's name is "+ E1.name + ", his empID is "+ E1.empID + ", his salary is "+ E1.salary+ " and the CEO of the company is "+ Employee.CEO);
+		System.out.println("Employee's name is "+ E2.name + ", his empID is "+ E2.empID + ", his salary is "+ E2.salary+ " and the CEO of the company is "+ Employee.CEO);
 	}
 
 }
